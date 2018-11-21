@@ -1,0 +1,135 @@
+/* Sitewide: */
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: inline;
+    
+    /* Font-rendering: */
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Avenir', 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #000;
+}
+
+div {
+    display: block;
+}
+
+/* Sections: */
+
+#sticky-container {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    height: 70px;
+    justify-items: center;
+}
+
+.menu-section {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+}
+
+.article-section {
+    margin-top: 60px;
+    display: block;
+}
+
+.vertical-menu {
+    height: 100%;
+    display: block;
+}
+
+.some-buttons {
+    display: block;
+    font-size: 25px;
+    -webkit-font-smoothing: antialiased;
+    width: 200px;
+    color: #722df1;
+    justify-self: end;
+
+}
+
+.some-buttons ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.some-buttons li {
+    flex: 0 0 auto;
+}
+
+.some-buttons li {
+    list-style: none;
+}
+
+.menu ul {
+    margin-left:0px;
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #eeeeee;
+    color: #000000;
+    text-align: left;
+}
+
+footer {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+body .div {
+    display: inline-block;
+}
+
+/* Unique Elements: */
+
+.title {
+    margin-top:0px;
+    margin-left: 40px;
+    display: flex;
+    width: 100px;
+    height: 42px;
+}
+
+h1 #logo {
+    font-size:32px;
+}
+
+h1, h2, h3 {
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Clear floats after the columns */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
