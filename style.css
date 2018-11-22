@@ -34,22 +34,24 @@ div {
 #sticky-container {
     margin-right: auto;
     margin-left: auto;
-    display: flex;
     height: 70px;
-    justify-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu-section {
+    display: block;
     float: left;
     width: 25%;
     box-sizing: border-box;
-    display: block;
     height: 100%;
 }
 
 .article-section {
+    float:left;
     margin-top: 60px;
     display: block;
+    width: 720px;
 }
 
 .vertical-menu {
@@ -58,34 +60,26 @@ div {
 }
 
 .some-buttons {
-    display: block;
+    display: inline-block;
     font-size: 25px;
     -webkit-font-smoothing: antialiased;
-    width: 200px;
+    width: 142px;
     color: #722df1;
-    justify-self: end;
-
-}
-
-.some-buttons ul {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    flex-wrap: nowrap;
+    text-align: center;
+    margin-right: 40px;
 }
 
 .some-buttons li {
-    flex: 0 0 auto;
-}
-
-.some-buttons li {
+    display: inline-block;
+    margin-right: 3px;
     list-style: none;
+
 }
 
 .menu ul {
     margin-left:0px;
     list-style-type: none;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 footer {
@@ -99,7 +93,7 @@ footer {
 }
 
 footer {
-    padding: 10px;
+    padding: 10px 40px;
     box-sizing: border-box;
 }
 
@@ -114,12 +108,15 @@ body .div {
     margin-top:0px;
     margin-left: 40px;
     display: flex;
-    width: 100px;
-    height: 42px;
+    width: 120px;
+    height: inherit;
+    letter-spacing: 0.2px;
+    text-rendering: optimizeLegibility;
 }
 
 h1 #logo {
     font-size:32px;
+    float: left;
 }
 
 h1, h2, h3 {
