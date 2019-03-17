@@ -57,6 +57,8 @@ div {
 .vertical-menu {
     height: 100%;
     display: block;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 5deg);
+    transform-style: preserve-3d;
 }
 
 .some-buttons {
@@ -92,6 +94,11 @@ footer {
     text-align: left;
 }
 
+footer p {
+    line-height: 0.9;
+
+}
+
 footer {
     padding: 10px 40px;
     box-sizing: border-box;
@@ -112,11 +119,17 @@ body .div {
     height: inherit;
     letter-spacing: 0.2px;
     text-rendering: optimizeLegibility;
+    
+    transform-style: preserve-3d;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 5deg);
+
+    transition: all 1000ms ease 0s;
 }
 
 h1 #logo {
     font-size:32px;
     float: left;
+    opacity: 1;
 }
 
 h1, h2, h3 {
