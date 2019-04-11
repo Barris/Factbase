@@ -57,8 +57,6 @@ div {
 .vertical-menu {
     height: 100%;
     display: block;
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 5deg);
-    transform-style: preserve-3d;
 }
 
 .some-buttons {
@@ -120,9 +118,6 @@ body .div {
     letter-spacing: 0.2px;
     text-rendering: optimizeLegibility;
     
-    transform-style: preserve-3d;
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 5deg);
-
     transition: all 1000ms ease 0s;
 }
 
